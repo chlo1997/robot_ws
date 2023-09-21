@@ -1,0 +1,74 @@
+[0.000000] (-) TimerEvent: {}
+[0.000901] (my_package) JobQueued: {'identifier': 'my_package', 'dependencies': OrderedDict()}
+[0.001813] (my_package) JobStarted: {'identifier': 'my_package'}
+[0.058995] (my_package) JobProgress: {'identifier': 'my_package', 'progress': 'cmake'}
+[0.059976] (my_package) Command: {'cmd': ['/usr/bin/cmake', '/home/catpi/robot_ws/src/my_package', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/catpi/robot_ws/install/my_package'], 'cwd': '/home/catpi/robot_ws/build/my_package', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'catpi'), ('SSH_CLIENT', '192.168.0.104 51298 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/catpi'), ('OLDPWD', '/home/catpi/robot_ws/src'), ('SSH_TTY', '/dev/pts/0'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('LOGNAME', 'catpi'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '2'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/catpi/robot_ws/build/my_package'), ('SSH_CONNECTION', '192.168.0.104 51298 192.168.0.102 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('COLCON', '1')]), 'shell': False}
+[0.099042] (-) TimerEvent: {}
+[0.200166] (-) TimerEvent: {}
+[0.301187] (-) TimerEvent: {}
+[0.402207] (-) TimerEvent: {}
+[0.503153] (-) TimerEvent: {}
+[0.604147] (-) TimerEvent: {}
+[0.705127] (-) TimerEvent: {}
+[0.806139] (-) TimerEvent: {}
+[0.906955] (-) TimerEvent: {}
+[1.007881] (-) TimerEvent: {}
+[1.108673] (-) TimerEvent: {}
+[1.151525] (my_package) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[1.208856] (-) TimerEvent: {}
+[1.309752] (-) TimerEvent: {}
+[1.410795] (-) TimerEvent: {}
+[1.511780] (-) TimerEvent: {}
+[1.612879] (-) TimerEvent: {}
+[1.713958] (-) TimerEvent: {}
+[1.814930] (-) TimerEvent: {}
+[1.884303] (my_package) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[1.912243] (my_package) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[1.915051] (-) TimerEvent: {}
+[2.015750] (-) TimerEvent: {}
+[2.116644] (-) TimerEvent: {}
+[2.195878] (my_package) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[2.203244] (my_package) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.216804] (-) TimerEvent: {}
+[2.317561] (-) TimerEvent: {}
+[2.418372] (-) TimerEvent: {}
+[2.470865] (my_package) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.510601] (my_package) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.512342] (my_package) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.518499] (-) TimerEvent: {}
+[2.523892] (my_package) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[2.618687] (-) TimerEvent: {}
+[2.719566] (-) TimerEvent: {}
+[2.801936] (my_package) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[2.805121] (my_package) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.819713] (-) TimerEvent: {}
+[2.920638] (-) TimerEvent: {}
+[3.021938] (-) TimerEvent: {}
+[3.094051] (my_package) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.122072] (-) TimerEvent: {}
+[3.129964] (my_package) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.131589] (my_package) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.222226] (-) TimerEvent: {}
+[3.276847] (my_package) StderrLine: {'line': b'CMake Error at CMakeLists.txt:19 (find_package):\n'}
+[3.277545] (my_package) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[3.277843] (my_package) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[3.278101] (my_package) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[3.278351] (my_package) StderrLine: {'line': b'\n'}
+[3.278596] (my_package) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[3.278841] (my_package) StderrLine: {'line': b'  any of the following names:\n'}
+[3.279115] (my_package) StderrLine: {'line': b'\n'}
+[3.279582] (my_package) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[3.279875] (my_package) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[3.280162] (my_package) StderrLine: {'line': b'\n'}
+[3.280468] (my_package) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[3.280798] (my_package) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[3.281266] (my_package) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[3.281708] (my_package) StderrLine: {'line': b'  has been installed.\n'}
+[3.282317] (my_package) StderrLine: {'line': b'\n'}
+[3.282904] (my_package) StderrLine: {'line': b'\n'}
+[3.283273] (my_package) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[3.283649] (my_package) StdoutLine: {'line': b'See also "/home/catpi/robot_ws/build/my_package/CMakeFiles/CMakeOutput.log".\n'}
+[3.287905] (my_package) CommandEnded: {'returncode': 1}
+[3.322499] (-) TimerEvent: {}
+[3.402359] (my_package) JobEnded: {'identifier': 'my_package', 'rc': 1}
+[3.413933] (-) EventReactorShutdown: {}

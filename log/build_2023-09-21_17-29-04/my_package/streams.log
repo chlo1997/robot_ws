@@ -1,0 +1,35 @@
+[0.061s] Invoking command in '/home/catpi/robot_ws/build/my_package': /usr/bin/cmake /home/catpi/robot_ws/src/my_package -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/catpi/robot_ws/install/my_package
+[1.150s] -- The C compiler identification is GNU 9.4.0
+[1.882s] -- The CXX compiler identification is GNU 9.4.0
+[1.910s] -- Check for working C compiler: /usr/bin/cc
+[2.194s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.201s] -- Detecting C compiler ABI info
+[2.469s] -- Detecting C compiler ABI info - done
+[2.509s] -- Detecting C compile features
+[2.510s] -- Detecting C compile features - done
+[2.522s] -- Check for working CXX compiler: /usr/bin/c++
+[2.800s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.803s] -- Detecting CXX compiler ABI info
+[3.092s] -- Detecting CXX compiler ABI info - done
+[3.128s] -- Detecting CXX compile features
+[3.130s] -- Detecting CXX compile features - done
+[3.275s] CMake Error at CMakeLists.txt:19 (find_package):
+[3.276s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[3.276s]   has asked CMake to find a package configuration file provided by
+[3.276s]   "ament_cmake", but CMake did not find one.
+[3.276s] 
+[3.277s]   Could not find a package configuration file provided by "ament_cmake" with
+[3.277s]   any of the following names:
+[3.277s] 
+[3.278s]     ament_cmakeConfig.cmake
+[3.278s]     ament_cmake-config.cmake
+[3.278s] 
+[3.278s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[3.279s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[3.279s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[3.280s]   has been installed.
+[3.280s] 
+[3.281s] 
+[3.281s] -- Configuring incomplete, errors occurred!
+[3.282s] See also "/home/catpi/robot_ws/build/my_package/CMakeFiles/CMakeOutput.log".
+[3.286s] Invoked command in '/home/catpi/robot_ws/build/my_package' returned '1': /usr/bin/cmake /home/catpi/robot_ws/src/my_package -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/catpi/robot_ws/install/my_package
